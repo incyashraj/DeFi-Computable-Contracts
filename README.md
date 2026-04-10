@@ -1,14 +1,14 @@
 # DeFi Computable Contracts
 
-Proof-of-concept for DeFi-native computable contracts, developed as part of a research collaboration with Prof. Christopher Clack (UCL).
+Proof-of-concept for DeFi-native computable contracts.
 
-The starting point was Finn Casey-Fierro's *Smart Confirmation Contracts* (UCL 2023), which built a clean architecture for ISDA derivative contracts: a hub-and-spoke Confirmation contract, CDM-typed structs, stateless Logic Modules, and a factory. That work assumed two identified counterparties, a linear lifecycle, and no composability requirements — all of which break down in DeFi. This repo figures out what survives the translation and what needs replacing.
+The starting point was Finn Casey-Fierro's *Smart Confirmation Contracts* (UCL 2023), which built a clean architecture for ISDA derivative contracts: a hub-and-spoke Confirmation contract, CDM-typed structs, stateless Logic Modules, and a factory. That work assumed two identified counterparties, a linear lifecycle, and no composability requirements all of which break down in DeFi. This repo figures out what survives the translation and what needs replacing.
 
 ---
 
 ## Architecture
 
-The core idea — separating *what state a contract holds* from *what logic it delegates* — carries over cleanly. Everything else gets reworked.
+The core idea separating *what state a contract holds* from *what logic it delegates* carries over cleanly. Everything else gets reworked.
 
 | Finn / ISDA | This system |
 |---|---|
@@ -105,6 +105,5 @@ node cnl/cli.js cnl/examples/collateral.cnl --compile
 
 ---
 
-YP
-
-# DeFi-Computable-Contracts
+Yashraj PARDESHI
+NTU SG | Developed in collaboration with Prof Clack, UCL
