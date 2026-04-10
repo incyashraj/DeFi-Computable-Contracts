@@ -1,0 +1,11 @@
+// Enhanced escrow with collateral and time limit
+// Case study 1 — matches §4 of the architecture paper
+//
+// Party A wants to buy 500 WETH from Party B.
+// Party A locks 1000 USDC as collateral to ensure they follow through.
+// Party B must deliver the WETH within 30 days.
+// On delivery, the locked USDC is released to Party A (they need it to pay).
+
+Party A locks 1000 USDC as collateral for Party B.
+Party B must transfer 500 WETH to Party A within 30 days.
+if price of WETH rises above 2500 USD, Party A receives 1000 USDC from vault.

@@ -1,0 +1,10 @@
+// Overcollateralised lending position
+// Case study 2 — maps directly to the Vault + LiquidationModule architecture
+//
+// Party A deposits WETH as collateral and borrows USDC against it.
+// If the WETH price drops below the liquidation threshold, a margin call fires.
+// Party A must top up within 24 hours or face liquidation.
+
+Party A locks 15 WETH as collateral.
+Party A receives 10000 USDC from vault.
+if price of WETH falls below 1500 USD, trigger margin call requiring 2 WETH top-up within 24 hours.

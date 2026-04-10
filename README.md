@@ -105,7 +105,6 @@ node cnl/cli.js cnl/examples/collateral.cnl --compile
 
 ---
 
-Yashraj Pardeshi — MSc Blockchain Technology, NTU Singapore, 2026  
-Informal research collaboration with Prof. Christopher Clack, UCL Computer Science
+YP
 
 # DeFi-Computable-Contracts

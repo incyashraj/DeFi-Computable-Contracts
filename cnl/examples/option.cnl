@@ -1,0 +1,10 @@
+// European call option with oracle-based settlement
+// Case study 3 — premium payment + bounded exercise window + oracle condition
+//
+// Party A pays a premium to buy the right to purchase 10 WETH
+// at a strike price of 20000 USDC within 30 days.
+// Party B writes the option and receives the premium upfront.
+
+Party A transfers 100 USDC to Party B.
+Party A may exercise option to receive 10 WETH for 20000 USDC within 30 days.
+if price of WETH rises above 2200 USD, Party A receives 10 WETH from Party B.
